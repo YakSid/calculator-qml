@@ -6,8 +6,8 @@ SOURCES += calculator-qml.cpp
 
 RESOURCES += calculator-qml.qrc
 
-STATECHARTS = ../calculator-common/statemachine.scxml
+STATECHARTS = statemachine.scxml
 
 # install
-target.path = $$[QT_INSTALL_EXAMPLES]/scxml/calculator-qml
+target.path = $$[QT_INSTALL_EXAMPLES]/scxml/calculator-qml/app
 INSTALLS += target
